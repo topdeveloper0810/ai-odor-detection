@@ -58,7 +58,7 @@ model.fit(X, y)
 # y_pred = model.predict(testData)
 # print(y_pred)
 
-# ! CLI test
+# ! CLI test odor
 while True:
     odor = input("input : ")
     odor = odor.split(";")[1:-2]
