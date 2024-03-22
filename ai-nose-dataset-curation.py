@@ -64,7 +64,7 @@ if not os.path.exists(trainFilePath):
     os.makedirs(trainFilePath)
 
 trainDf.to_csv(os.path.join(trainFilePath, "train.csv"), index=False)
-print("train data prepared.")
+print("train data is ready.")
 
 # Test Dataset
 dataFrame = {}
@@ -81,4 +81,4 @@ if not os.path.exists(testFilePath):
     os.makedirs(testFilePath)
 
 testDf.to_csv(os.path.join(testFilePath, "test.csv"), index=False)
-print("train data prepared.")
+print("train data is ready.")
